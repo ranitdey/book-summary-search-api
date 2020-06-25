@@ -8,6 +8,7 @@
 
 # User-specific stuff
 .idea/
+.DS_Store
 
 
 # Generated files
@@ -230,3 +231,5 @@ dmypy.json
 .pytype/
 
 # End of https://www.toptal.com/developers/gitignore/api/pycharm,python
+
+test.py
