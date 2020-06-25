@@ -37,5 +37,5 @@ class Search:
         docs_with_distance = []
         for doc in docs:
             docs_with_distance.append({"id": doc,
-                                       "similarity": levenshtein_partial_ratio(self.map[doc], query)})
+                                       "similarity": levenshtein_ratio(self.map[doc], query)})
         return sorted(docs_with_distance, key=lambda obj: obj["similarity"], reverse=True)
