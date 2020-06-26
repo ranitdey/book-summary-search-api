@@ -1,5 +1,5 @@
-from core_search.test.data.search_data import TEST_DATA_SEARCH
-from core_search.search import Search
+from ..test.data.search_data import TEST_DATA_SEARCH
+from ..search import Search
 import logging
 
 LOGGER = logging.getLogger(__name__)

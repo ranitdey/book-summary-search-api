@@ -3,11 +3,11 @@ Author: Ranit Dey
 Description: This class enables users to perform search query against the dataset.Also this class is responsible to
              create and load inverted index instance with initial dataset.
 """
-from core_search.constants import DATA_PATH
-from core_search.lib.file_utils import read
-from core_search.lib.inverted_index import InvertedIndex
-from core_search.lib.levenshtein import levenshtein_ratio, levenshtein_partial_ratio
-from core_search.lib.preprocessor import tokenize
+from .constants import DATA_PATH
+from .lib.file_utils import read
+from .lib.inverted_index import InvertedIndex
+from .lib.levenshtein import levenshtein_ratio, levenshtein_partial_ratio
+from .lib.preprocessor import tokenize
 
 
 class Search:
