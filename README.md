@@ -4,10 +4,6 @@
 Search API service allows to search through summaries.The core functionality of the search is built only with language functionality without any search related libraries. The wrapper API is written with flask.
 
 
-  - Type some Markdown on the left
-  - See HTML in the right
-  - Magic
-
 # Search Algorithms
 There are two search algorithms available in the library. The first one calculates similarity ratio using Levenshtein distance and the second one uses partial ratio calculated using substring match and Levenshtein distance.
 Before applying any of these algorithms the data gets preprocessed and also gets converted into Inverted Index. This helps to reduce the search space.
