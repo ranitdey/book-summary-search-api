@@ -33,4 +33,4 @@ class SearchSummaries(Resource):
                 summary["query"] = query
             data.append(matched_summaries)
         current_app.logger.debug("Enriching summaries with author")
-        return enrich_with_author(data)
+        return {"results": enrich_with_author(data)}

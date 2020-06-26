@@ -1,9 +1,5 @@
 import os
 
-
-basedir = os.path.abspath(os.path.dirname(__file__))
-
-
 class Config:
     DEBUG = False
 
@@ -11,6 +7,7 @@ class Config:
 class DevelopmentConfig(Config):
     DEBUG = True
     AUTHOR_SERVICE = "https://ie4djxzt8j.execute-api.eu-west-1.amazonaws.com/coding"
+    TESTING = True
 
 
 class TestingConfig(Config):

@@ -12,10 +12,16 @@ itsdangerous==1.1.0
 Jinja2==2.11.2
 jsonschema==3.2.0
 MarkupSafe==1.1.1
+more-itertools==8.4.0
+packaging==20.4
+pluggy==0.13.1
+py==1.9.0
+pyparsing==2.4.7
 pyrsistent==0.16.0
 pytz==2020.1
 requests==2.24.0
 six==1.15.0
 urllib3==1.25.9
+wcwidth==0.2.5
 Werkzeug==0.16.1
 zipp==3.1.0

@@ -3,6 +3,7 @@ from logging import FileHandler, Formatter
 
 import logging
 from flask_script import Manager
+
 from api.main import create_app
 
 app = create_app(os.getenv('BOILERPLATE_ENV') or 'dev')
