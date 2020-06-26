@@ -12,7 +12,7 @@ Make sure you have python3 installed in your system. Steps:
 - Clone the project
 - Create an virtual environnment with python3
 - Go to project root
-- Export pythonpath as your project root path. Example:
+- Add core_search path library as PYTHONPATH. Example:
 ```sh
 export PYTHONPATH="$PYTHONPATH:/Users/ranit/PycharmProjects/search-engine/core_search"
 ```
