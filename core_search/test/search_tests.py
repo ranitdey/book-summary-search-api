@@ -24,3 +24,5 @@ def test002_search_validation_partial_match():
         result = search.search_summaries(query[0:len(query)//2], 4)
         assert len(result) == 4
         assert result[0]["id"] == data["id"]
+
+
