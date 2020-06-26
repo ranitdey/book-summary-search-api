@@ -4,10 +4,11 @@ Description: This class enables users to perform search query against the datase
              create and load inverted index instance with initial dataset.
 """
 from .constants import DATA_PATH
-from .lib.file_utils import read
-from .lib.inverted_index import InvertedIndex
-from .lib.levenshtein import levenshtein_ratio, levenshtein_partial_ratio
-from .lib.preprocessor import tokenize
+from .library.file_utils import read
+from .library.inverted_index import InvertedIndex
+from .library.levenshtein import levenshtein_ratio, levenshtein_partial_ratio
+from .library.preprocessor import tokenize
+
 
 
 class Search:

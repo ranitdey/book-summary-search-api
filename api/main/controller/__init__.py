@@ -4,7 +4,7 @@ from .search_controller import api as ns1
 
 api = Api(
     title='Search summaries',
-    version='1.0',
+    version='library.0',
     description='Given a query search matching summaries',
 )
 
