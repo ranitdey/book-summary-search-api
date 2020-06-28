@@ -1,5 +1,6 @@
 import json
-from api.manage import app
+
+from manage import app
 
 
 def test001_search_route():
